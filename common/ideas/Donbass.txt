@@ -1,0 +1,370 @@
+ideas ={
+	country = {
+		ODS_alone_in_the_dark = {
+			picture = ODS_alone_in_the_dark
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.1
+				conscription = 0.04
+				army_morale_factor = -0.03
+				surrender_limit = -0.2
+			}
+			targeted_modifier = {
+				tag = UKR
+				attack_bonus_against = -0.15
+				defense_bonus_against = 0.1
+			}
+		}
+		
+		impromptu_militias = {
+			picture = chi_army_corruption3
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.1
+				conscription = 0.04
+				army_morale_factor = -0.08
+				army_attack_factor = -0.22
+				army_core_defence_factor = 0.02
+				army_speed_factor = -0.35
+				army_org_factor = -0.1
+				surrender_limit = 0.35
+				ai_focus_defense_factor = 0.6
+				org_loss_when_moving = -0.15
+				command_power_gain_mult = -0.40
+			}
+		}
+		
+		KHK_popular_discontent = {
+			picture = KHK_popular_discontent
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_org_factor = -0.06
+				political_power_factor = -0.3
+				consumer_goods_expected_value = 0.1
+				surrender_limit = -0.3
+			}
+			targeted_modifier = {
+				tag = UKR
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+		}
+
+		impromptu_militias_2 = {
+			picture = chi_army_corruption3
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.1
+				conscription = 0.05
+				army_morale_factor = -0.05
+				army_attack_factor = -0.20
+				army_core_defence_factor = 0.02
+				army_speed_factor = -0.35
+				army_org_factor = -0.1
+				surrender_limit = 0.35
+				ai_focus_defense_factor = 0.6
+				org_loss_when_moving = -0.15
+				command_power_gain_mult = -0.40
+			}
+		}
+
+		impromptu_militias_3 = {
+			picture = chi_army_corruption3
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.13
+				conscription = 0.05
+				army_morale_factor = -0.03
+				army_attack_factor = -0.20
+				army_core_defence_factor = 0.03
+				army_speed_factor = -0.32
+				army_org_factor = -0.06
+				surrender_limit = 0.35
+				ai_focus_defense_factor = 0.6
+				org_loss_when_moving = -0.15
+				command_power_gain_mult = -0.35
+			}
+		}
+
+		impromptu_militias_4 = {
+			picture = chi_army_corruption3
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.13
+				conscription = 0.05
+				army_morale_factor = -0.02
+				army_attack_factor = -0.22
+				army_core_defence_factor = 0.03
+				army_speed_factor = -0.30
+				army_org_factor = -0.05
+				surrender_limit = 0.38
+				ai_focus_defense_factor = 0.6
+				org_loss_when_moving = -0.15
+				command_power_gain_mult = -0.35
+			}
+		}
+
+		
+		impromptu_militias_5 = {
+			picture = chi_army_corruption3
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.13
+				conscription = 0.05
+				army_morale_factor = -0.01
+				army_attack_factor = -0.22
+				army_core_defence_factor = 0.03
+				army_speed_factor = -0.30
+				army_org_factor = -0.03
+				surrender_limit = 0.38
+				ai_focus_defense_factor = 0.6
+				org_loss_when_moving = -0.15
+				command_power_gain_mult = -0.35
+			}
+		}
+
+		impromptu_militias_6 = {
+			picture = chi_army_corruption3
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.13
+				conscription = 0.05
+				army_attack_factor = -0.2
+				army_core_defence_factor = 0.05
+				army_speed_factor = -0.28
+				army_org_factor = -0.03
+				surrender_limit = 0.38
+				ai_focus_defense_factor = 0.55
+				org_loss_when_moving = -0.13
+				command_power_gain_mult = -0.35
+			}
+		}
+
+		mediocre_militias = {
+			picture = chi_army_corruption3
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = -0.05
+				stability_factor = -0.1
+				conscription = 0.07
+				army_attack_factor = -0.13
+				army_core_defence_factor = 0.05
+				army_speed_factor = -0.25
+				army_org_factor = -0.025
+				surrender_limit = 0.38
+				ai_focus_defense_factor = 0.5
+				org_loss_when_moving = -0.15
+				command_power_gain_mult = -0.2
+			}
+		}
+
+		DON_free_in_spirit = {
+			picture = DON_free_in_spirit
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_morale_factor = 0.05
+				army_org_factor = 0.05
+				stability_factor = 0.12
+				consumer_goods_expected_value = 0.05
+				political_power_factor = -0.05
+				stability_weekly = 0.002
+			}
+		}
+
+
+		DON_LHK_united_by_cause = {
+			picture = DON_LHK_united_by_cause
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = 0.1
+				army_core_defence_factor = 0.05
+				consumer_goods_expected_value = -0.05
+				army_org_factor = 0.1
+				war_stability_factor = -0.1
+			}
+		}
+
+		DON_comrade_artyom = {
+			picture = GFX_idea_DON_comrade_artyom
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				far_left_drift = 0.05
+				stability_factor = 0.08
+				political_power_cost = 0.5
+				army_morale_factor = 0.03
+				army_core_defence_factor = 0.02
+			}
+		}
+
+		DON_new_russia = {
+			picture = GFX_idea_DON_new_russia
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				far_right_drift = 0.06
+				local_non_core_manpower = 0.1
+				army_org_factor = 0.05
+				consumer_goods_expected_value = -0.05
+				industrial_capacity_factory = -0.05
+				army_attack_factor = 0.03
+			}
+		}
+
+		DON_death_penalty = {
+			picture = GFX_idea_DON_death_penalty
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_cost = 0.05
+				stability_factor = -0.05
+				army_org_factor = 0.05
+				industrial_capacity_factory = -0.05
+				war_support_factor = 0.1
+				training_time_factor = -0.1
+
+			}
+		}
+
+		DON_promoting_patriotism_for_the_youth = {
+			picture = GFX_idea_heating_up_guns
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = 0.05
+				recruitable_population_factor = 0.07
+			}
+		}
+
+		assisting_russia = {
+			picture = heating_up_guns
+				
+			allowed = {
+				country_exists = ROOT
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			targeted_modifier = {
+				tag = SOV
+				weekly_manpower = 175
+			}
+
+			modifier = {
+				weekly_manpower = -175
+			}
+		}
+	}
+
+	
+}

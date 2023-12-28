@@ -1,0 +1,37 @@
+
+state={
+	id=17
+	name="STATE_17"
+	resources={
+		oil=930.000
+	}
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		victory_points = {
+			7937 30 
+		}
+		victory_points = {
+			8228 5 
+		}
+		victory_points = {
+			5924 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		1153 1294 1385 3430 3769 4577 4635 4802 4934 6172 6197 7232 7233 7336 7577 7598 7719 7972 8228 8633 8671 9280 9319 9798 10121 11532 11698 11829 12356 12838 13268 13375 13968 14904 14910 14945 14994 15005 15101 15398 15459 15467 15509 
+	}
+	manpower=672093
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
